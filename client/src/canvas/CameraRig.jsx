@@ -23,10 +23,12 @@ const CameraRig = ({ children }) => {
       else targetPosition = [0, 0, 2];
     }
 
-    const mouseMovementSpeed = 0.85; 
+    easing.damp3(state.camera.position, targetPosition, 0.25, delta)
+
+    const mouseMovementSpeed = 0.73; 
     easing.dampE(
       group.current.rotation,
-      [state.mouse.y * mouseMovementSpeed, -state.mouse.x * mouseMovementSpeed, 0],
+      [state.pointer.y * mouseMovementSpeed, -state.pointer.x * mouseMovementSpeed, 0],
       0.25,
       delta
     );
