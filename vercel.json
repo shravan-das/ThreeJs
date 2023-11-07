@@ -1,9 +1,16 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "dist/*",
-      "use": "@vercel/static"
-    }
-  ]
-}
+    "version": 2,
+    "builds": [
+      {
+        "src": "client/dist/*",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*.(json|js|css|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot))",
+        "dest": "/client/dist/$1"
+      }
+    ]
+  }
+  
