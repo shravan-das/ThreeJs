@@ -2,7 +2,10 @@
 
 Welcome to the Vite-React Three.js Shirt Customization App! This application is a web-based tool that leverages Three.js to render a 3D shirt, enabling users to rotate the shirt, modify its color, and add logos by uploading files.
 
-![App Screenshot](/path/to/screenshot.png)
+
+https://github.com/shravan-das/ThreeJs/assets/100745475/e74b18fe-c800-4013-aeb5-619d77828e51
+
+
 
 ## Features
 
