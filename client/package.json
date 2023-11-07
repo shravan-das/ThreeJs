@@ -1,11 +1,13 @@
 {
+  "homepage":"https://shravan.github.io/ThreeJs/",
   "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
     "dev": "vite",
-    "build": "vite build",
+    "build": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
