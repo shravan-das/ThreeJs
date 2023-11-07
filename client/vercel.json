@@ -1,13 +1,10 @@
 {
-  
-    "routes":[
-
-        {
-            "src": "/[^.]+",
-            "dest":"/"
-        }
-
+    "version": 2,
+    "builds": [
+      {
+        "src": "dist/*",
+        "use": "@vercel/static"
+      }
     ]
-
-
-}
+  }
+  
