@@ -16,7 +16,7 @@ https://github.com/shravan-das/ThreeJs/assets/100745475/e74b18fe-c800-4013-aeb5-
 - Pick from a variety of colors using a palette to instantly change the shirt's color.
 
 ### 🖼️ Logo Addition
-- Easily upload an image file to place as a logo on the shirt.
+- Easily upload an image  to place as a logo on the shirt.
 
 
 
